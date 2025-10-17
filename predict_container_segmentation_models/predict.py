@@ -12,9 +12,9 @@ import shutil
 
 
 # PARAMETROS E SETAGENS
-model_name = 'model_dengue_novo_v8_512_new.h5'
+model_name = 'model_dengue_novo_v8_512_vgg16_new.h5'
 
-BACKBONE = 'efficientnetb3'
+BACKBONE = 'vgg16'
 SIZE_INPUT_UNET = 512  # Tamanho de entrada para o modelo UNet
 BATCH_SIZE = 8
 LR = 0.0001
