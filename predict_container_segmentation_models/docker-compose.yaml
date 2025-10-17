@@ -1,0 +1,13 @@
+
+services:
+  predict:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - ./datasets:/app/datasets
+      - ./outputs:/app/outputs
+      - ./models:/app/models
+    environment:
+      - CUDA_VISIBLE_DEVICES=-1  # Garante que o TensorFlow usa CPU
