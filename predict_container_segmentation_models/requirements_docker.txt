@@ -1,0 +1,4 @@
+opencv-python-headless==4.5.5.64
+segmentation-models==1.0.1
+matplotlib==3.5.1
+scikit-image==0.19.3
